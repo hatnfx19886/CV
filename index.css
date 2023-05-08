@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  width: 90vw;
+  max-width: 1024px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 1rem auto;
+}
+header {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  column-gap: 2rem;
+}
+h3 {
+  text-transform: uppercase;
+  border-bottom: 2px solid #000;
+  padding-bottom: 0.5rem;
+  margin: 1rem 0;
+}
+p {
+  margin-bottom: 0.5rem;
+}
+a {
+  text-decoration: none;
+}
+.infor_board {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+}
+.skill_board {
+  width: 100%;
+}
+.skill_board tr {
+  border-bottom: 1px solid #ddd;
+}
+.skill_board td {
+  padding: 0.5rem 0;
+}
+.project_board {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+.project_board td {
+  border: 1px solid #000;
+  padding: 0.5rem;
+}
+.project_board p {
+  margin-bottom: 0;
+}
+@media (max-width: 578px) {
+  header {
+    grid-template-columns: 150px 1fr;
+    column-gap: 1rem;
+  }
+}
