@@ -22,7 +22,8 @@ h3 {
   text-transform: uppercase;
   border-bottom: 2px solid #000;
   padding-bottom: 0.5rem;
-  margin: 1rem 0;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
 }
 p {
   margin-bottom: 0.5rem;
@@ -43,6 +44,9 @@ a {
 }
 .skill_board td {
   padding: 0.5rem 0;
+}
+.education {
+  margin-bottom: 0.5rem;
 }
 .project_board {
   width: 100%;
